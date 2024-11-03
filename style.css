@@ -1,0 +1,85 @@
+/* overall css */
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center;
+    min-height: 100vh;  
+}
+
+/* Background CSS */
+body{
+    background:url(/images/background.jpeg);
+    background-size:cover;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* title css */
+h1{
+    display: flex;
+    color:whitesmoke;   
+    font-size:30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left:20px;
+}
+
+/*  btn img css */
+img{
+    height: 100px;
+    width:100px;
+}
+
+/* RPS btn css */
+.game-btn{
+    background-color: transparent;
+    border: 4px solid #ffe6ee;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-left:20px ;
+}
+
+/* game result css */
+.result{
+    font-size: 30px;
+    margin-top:20px;
+    padding-left:20px ;
+}
+
+/* player moves css */
+.moves{
+    padding-left: 20px;
+}
+
+/* outcomes css */
+.score {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+/* reset btn css */
+.reset-btn{
+    background-color: #ffe6ee;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid whitesmoke;
+    padding:10px 12px;
+    margin-left:20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* hover effect to btn */
+.reset-btn:hover{
+    background-color: #f17693df !important;
+    /* !important makes overides the reset btn css */
+    color: whitesmoke;
+}
